@@ -1,5 +1,14 @@
 ---
 title: "About"
+format:
+  html:
+    other-links:
+      - text: NASA Open Data
+        href: https://data.nasa.gov/
+    code-links:
+      - text: Data Import Code
+        icon: file-code
+        href: data-import.py
 ---
 
 About this site
