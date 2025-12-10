@@ -4,3 +4,8 @@
 .Ruserdata
 
 /.quarto/
+g.sh
+py2.ipynb
+Mafefile
+pipeline.config
+_quarto.yml

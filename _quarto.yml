@@ -2,12 +2,13 @@ project:
   type: website
 
 website:
-  title: "First-web"
+  title: "web-with-r"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - py2.ipynb
 
 format:
   html:

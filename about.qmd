@@ -16,3 +16,82 @@ About this site
 ```{r}
 1 + 1
 ```
+
+```{r}
+
+#install.packages("palmerpenguins")
+```
+
+```{r}
+#| echo: False
+library(palmerpenguins)
+data(package = 'palmerpenguins')
+```
+
+```{r}
+head(penguins)
+
+```
+
+```{r}
+head(penguins_raw)
+```
+
+```{r}
+str(penguins)
+```
+
+```{r}
+#install.packages("tydiverse")
+
+```
+
+```{r}
+library("tidyverse")
+  penguins %>% 
+    count(species)
+penguins %>% 
+  group_by(species) %>% 
+  summarize(across(where(is.numeric), mean, na.rm = TRUE))
+```
+
+```{r}
+
+```
+
+A simple example based on Allison Horst's [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/) dataset. Here we look at how penguin body mass varies across both sex and species (use the provided inputs to filter the dataset by bill length and island):
+
+```         
+```
+
+::: panel-tabset
+## Plot
+
+```         
+```
+
+## Data
+
+```{ojs}
+Inputs.table(filtered)
+```
+:::
+
+```{ojs}
+data = FileAttachment("palmer-penguins.csv").csv({ typed: true })
+```
+
+```         
+```
+
+```         
+```
+
+```         
+```
+
+```         
+```
+
+```         
+```
